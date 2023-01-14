@@ -246,10 +246,60 @@ margin: 0 auto;
 .icon-list h3{
   font-weight: 400;
 font-size: 30px;
-line-height: 30px;
+line-height: 35px;
 }
-
-
-
 /* facts section ends  */
 
+/* Sponsors section starts */
+
+.sponsor{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sponsor-container h3{
+  margin-top: 150px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sponsor-container p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  color: var(--color-secondary-light);
+}
+
+.sponsor-image{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+
+}
+
+    /* Sponsors section ends */
+
+    /* footer section starts */
+
+    .footer{
+      width: 80%;
+      margin: 0 auto;
+      background-color: var(--color-background);
+    }
+
+    .footer p{
+      padding: 20px 0;
+      text-align: center;
+      color: var(--color-secondary);
+      margin: 100px 0;
+      font-weight: 600;
+  font-size: 15px;
+    }
+
+/* footer section ends */
