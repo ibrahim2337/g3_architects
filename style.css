@@ -7,7 +7,6 @@
 }
 
 body {
-  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 
@@ -16,9 +15,127 @@ html {
 }
 
 :root {
-  --color-primary: #e02c6d;
+  --color-primary: #ff900e;
   --color-secondary: #000000;
-  --color-secondary-light: #3a3a3a;
-  --color-footer: #0a0826;
+  --color-secondary-light: #727272;
   --color-white: #ffffff;
+  --color-background: #ff900e1a;
 }
+
+/* navbar section starts  */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  background-color: var(--color-background);
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--color-secondary);
+}
+
+.navbar-model {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-secondary);
+}
+
+/* navbar section ends */
+
+/* header section starts  */
+
+.header {
+  background-color: var(--color-background);
+  text-align: center;
+  padding: 20px 150px;
+}
+
+.header-title {
+  /* padding: 0 300px; */
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+.header-contain {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  padding: 15px 25px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.header-image {
+  margin-top: 30px;
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* header section ends */
+
+/* Features section starts */
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.features-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.feature-container {
+ padding: 0 40px;
+
+}
+
+.feature-title{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+.font-color{
+  color: var(--color-primary);
+}
+
+.feature-contain{
+  font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+margin-bottom: 15px;
+}
+
+/* Features section ends */
