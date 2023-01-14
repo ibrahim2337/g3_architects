@@ -146,18 +146,17 @@ html {
 
 /* Features section ends */
 
-
 .features-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 80%;
   margin: 0 auto;
-  gap:40px;
+  gap: 40px;
 }
 
-.features-item{
-width: 100%;
-margin: 0 auto;
+.features-item {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .features-item-title {
@@ -194,33 +193,33 @@ margin: 0 auto;
   margin-bottom: 10px;
 }
 
-.lists p{
+.lists p {
   font-weight: 400;
   font-size: 15px;
-  line-height: 20px;;
+  line-height: 20px;
 }
 
-.features-container-image img{
+.features-container-image img {
   width: 100%;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 /* facts section starts  */
 
-.facts{
+.facts {
   width: 80%;
   margin: 0 auto;
   margin-top: 100px;
 }
 
-.facts-container{
+.facts-container {
   font-weight: 500;
   font-size: 40px;
   line-height: 45px;
   margin-bottom: 20px;
 }
 
-.facts-contain{
+.facts-contain {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -228,37 +227,41 @@ margin: 0 auto;
   color: var(--color-secondary-light);
 }
 
-.icons{
+.icons {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 50px;
   padding: 0 150px;
 }
 
-.icon-list{
+.icon-list {
   border: 1px solid var(--color-primary);
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 10px;
   text-align: center;
   padding: 20px 20px;
   margin-top: 80px;
 }
-.icon-list h3{
+.icon-list h3 {
   font-weight: 400;
-font-size: 30px;
-line-height: 35px;
+  font-size: 30px;
+  line-height: 35px;
 }
 /* facts section ends  */
 
 /* Sponsors section starts */
 
-.sponsor{
+.sponsor {
   width: 80%;
   margin: 0 auto;
   text-align: center;
 }
 
-.sponsor-container h3{
+.sponsor-container h3 {
   margin-top: 150px;
   font-weight: 500;
   font-size: 40px;
@@ -267,7 +270,7 @@ line-height: 35px;
   text-align: center;
 }
 
-.sponsor-container p{
+.sponsor-container p {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -275,31 +278,74 @@ line-height: 35px;
   color: var(--color-secondary-light);
 }
 
-.sponsor-image{
+.sponsor-image {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
-
 }
 
-    /* Sponsors section ends */
+/* Sponsors section ends */
 
-    /* footer section starts */
+/* footer section starts */
 
-    .footer{
-      width: 80%;
-      margin: 0 auto;
-      background-color: var(--color-background);
-    }
+.footer {
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--color-background);
+}
 
-    .footer p{
-      padding: 20px 0;
-      text-align: center;
-      color: var(--color-secondary);
-      margin: 100px 0;
-      font-weight: 600;
+.footer p {
+  padding: 20px 0;
+  text-align: center;
+  color: var(--color-secondary);
+  margin: 100px 0;
+  font-weight: 600;
   font-size: 15px;
-    }
+}
 
 /* footer section ends */
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: 10px 10px;
+  }
+  .navbar-list {
+    gap: 7px;
+  }
+  .header {
+    padding: 50px 10px;
+  }
+  .header-title {
+    font-size: 35px;
+  }
+  .header-contain {
+    font-size: 20px;
+  }
+  .header-image {
+    height: 30vh;
+    width: 100%;
+  }
+
+  .features-image {
+    
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .feature{
+    flex-direction:column;
+    
+  }
+  .feature-container{
+    padding: 20px 10px;
+  }
+.features-image .image{
+    width: 300px;
+    height: auto;
+}
+
+.features-container{
+grid-template-columns: repeat(1, 1fr);
+  } 
+
+}
