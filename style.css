@@ -230,7 +230,7 @@ html {
 .icons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
+  gap: 25px;
   padding: 0 150px;
 }
 
@@ -244,7 +244,7 @@ html {
   border-radius: 10px;
   text-align: center;
   padding: 20px 20px;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .icon-list h3 {
   font-weight: 400;
@@ -328,24 +328,35 @@ html {
   }
 
   .features-image {
-    
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
-  .feature{
-    flex-direction:column;
-    
+  .feature {
+    flex-direction: column;
   }
-  .feature-container{
+  .feature-container {
     padding: 20px 10px;
   }
-.features-image .image{
+  .features-image .image {
     width: 300px;
     height: auto;
-}
+  }
 
-.features-container{
-grid-template-columns: repeat(1, 1fr);
-  } 
+  .features-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
+  .icons {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 70px;
+    gap: 1px;
+  }
+
+  .icon-list {
+    width: 100%;
+    height: auto;
+  }
+  .sponsor-image {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
