@@ -227,6 +227,30 @@ html {
   color: var(--color-secondary-light);
 }
 
+.btn-secendary {
+  position: absolute;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 665px;
+  margin-left: -540px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 10px;
+  border-style: none;
+  padding: 30px 20px 20px;
+}
+
+.large-btn:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.large-btn-span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .icons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -343,6 +367,14 @@ html {
     height: auto;
   }
 
+  .btn-secendary {
+    margin-left: -260px;
+    margin-top: 450px;
+    padding:30px 20px 20px;
+  }
+  .facts{
+    margin-top: 150px;
+  }
   .features-container {
     grid-template-columns: repeat(1, 1fr);
   }
